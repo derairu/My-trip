@@ -21,7 +21,6 @@
                 margin-bottom: 3em;
             }
         }
-        .navbar-default{
             .navbar-form{
                 border-top: none;
                 .form-group input{
@@ -37,7 +36,6 @@
                 }
             }
 
-        }
         
         .nav{
             margin-top: 1em;
@@ -101,6 +99,10 @@
     }
     @media screen and (max-width:768px) {
         .navbar{
+            .navbar-brand img{
+                margin-top: -3px;
+                height: 32px;
+            }
             .navbar-form{
                 margin: 0 auto;
                 border-top: none;
@@ -133,6 +135,19 @@
                 text-align: center;
             }    
         }
+    }
+    @media screen and (max-width:600px) {
+        .navbar{
+            .navbar-brand{
+                img{
+                    height: 30px;
+                }
+            }
+            .navbar-form{
+                border: 0px;
+            }
+        }
+        
     }
 }
 // 底部
